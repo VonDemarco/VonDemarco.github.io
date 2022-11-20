@@ -1,0 +1,386 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"paddi",
+				"padding-top"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"align",
+				"text-align"
+			],
+			[
+				"alig",
+				"align-items"
+			],
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"mari",
+				"margin-bottom"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"border",
+				"border-right"
+			],
+			[
+				"color",
+				"background-color"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"valor_tot",
+				"valor_total_com_desconto"
+			],
+			[
+				"valor",
+				"valor_total_com_desconto"
+			],
+			[
+				"va",
+				"valor_total_com_desconto"
+			],
+			[
+				"valo",
+				"valor_desconto"
+			],
+			[
+				"for",
+				"foreach"
+			],
+			[
+				"a",
+				"tabuleiro"
+			],
+			[
+				"entrada_apelido",
+				"entrada_apelido_jogador_1"
+			],
+			[
+				"aling",
+				"text-align"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"s",
+				"style"
+			],
+			[
+				"st",
+				"style"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"fu",
+				"fun"
+			],
+			[
+				"fun",
+				"fun"
+			],
+			[
+				"id",
+				"exibeElementosPorId"
+			],
+			[
+				"f",
+				"function"
+			],
+			[
+				"baloes",
+				"baloes_inteiros"
+			],
+			[
+				"balo",
+				"baloes_estourados"
+			],
+			[
+				"ba",
+				"baloes_inteiros"
+			],
+			[
+				"bal",
+				"baloes_inteiros"
+			],
+			[
+				"seg",
+				"segundos"
+			],
+			[
+				"b",
+				"b"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"ali",
+				"align-content"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"lis",
+				"lista_coisas"
+			],
+			[
+				"lista",
+				"lista_coisas"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/xampp/htdocs/paramentros.php",
+		"/C/xampp/htdocs/estilo.css",
+		"/C/Users/lucas/Desktop/programação/Projetos/projeto-spotify/estilo.css",
+		"/C/Users/lucas/Desktop/programação/css3/estilo.css",
+		"/C/Users/lucas/Desktop/programação/Projetos/Projeto-inicial-spotify/index.html",
+		"/C/xampp/htdocs/calculadora/classes/calculadora.php",
+		"/C/xampp/htdocs/calculadora/index.html",
+		"/C/xampp/htdocs/calculadora/calcular.php",
+		"/C/xampp/htdocs/calculadora/calculadora.php",
+		"/C/xampp/htdocs/construtor_destrutor.php",
+		"/C/xampp/htdocs/encapsulamento_e_visibilidade.php",
+		"/C/xampp/htdocs/treino.php",
+		"/C/xampp/htdocs/heranca_polimorfismo.php",
+		"/C/xampp/htdocs/class_getters_setters.php",
+		"/C/xampp/htdocs/isset_empty_isnumeric.php",
+		"/C/xampp/htdocs/date.php",
+		"/C/xampp/htdocs/login_funcao.php",
+		"/C/xampp/htdocs/login_validacao.php",
+		"/C/xampp/htdocs/login_form.php",
+		"/C/xampp/htdocs/funcao_desconto.php",
+		"/C/Users/lucas/Desktop/programação/HTML/JM Viagens/projeto testee/index.html",
+		"/C/xampp/htdocs/calcular_desconto.php",
+		"/C/xampp/htdocs/foreach.php",
+		"/C/xampp/htdocs/teste_php.php",
+		"/C/xampp/htdocs/xampp/repeticao_arrya.php",
+		"/C/xampp/htdocs/catalogo_produtos.php",
+		"/C/xampp/htdocs/repeticao_arrya.php",
+		"/C/xampp/htdocs/Array_multidimensional.php",
+		"/C/xampp/htdocs/xampp/Array_multidimensional.php",
+		"/C/Users/lucas/Desktop/teste.html",
+		"/C/Users/lucas/Downloads/jogo_da_velha_parte_3_completo/jogo.js",
+		"/C/Users/lucas/Desktop/jogo_da_velha/jogo.js",
+		"/C/Users/lucas/Desktop/jogo_da_velha/index.html",
+		"/C/Users/lucas/Downloads/jogo_da_velha_parte_3_completo/index.html",
+		"/C/Users/lucas/Desktop/programação/JQuery/index.html",
+		"/C/Users/lucas/Downloads/1a-elementos/elementos.html",
+		"/C/Users/lucas/Desktop/Curso JavaScript/Projeto final/index.html",
+		"/C/Users/lucas/Downloads/1a-estourando_baloes_parte_3_finalizado.zip",
+		"/C/Users/lucas/Downloads/1a-estourando_baloes-arquivo-projeto/__MACOSX/estourando_baloes/._index.html",
+		"/C/Users/lucas/Desktop/Curso JavaScript/Projeto final/jogo.jd",
+		"/C/Users/lucas/Desktop/Curso JavaScript/calculadora.html",
+		"/C/Users/lucas/Desktop/estourando_baloes_parte_2_finalizado/jogo.html",
+		"/C/Users/lucas/Desktop/Curso JavaScript/index.html",
+		"/C/Users/lucas/Desktop/Curso JavaScript/funcoes.html",
+		"/C/Users/lucas/Desktop/estourando_baloes/jogo.html",
+		"/C/Users/lucas/Downloads/calculadora_projeto_finalizado.html",
+		"/C/Users/lucas/Desktop/calculadora.html",
+		"/C/Users/lucas/Downloads/calculadora_projeto_finalizado.zip",
+		"/C/Users/lucas/Desktop/Curso JavaScript/for.html",
+		"/C/Users/lucas/Desktop/Curso JavaScript/do_while.html",
+		"/C/Users/lucas/Desktop/Curso JavaScript/for.hmtl",
+		"/C/Users/lucas/Desktop/Curso JavaScript/while.html",
+		"/C/Users/lucas/Desktop/Curso JavaScript/switch_case.html",
+		"/C/Users/lucas/Desktop/Curso JavaScript/calculos.html",
+		"/C/Users/lucas/Desktop/Curso JavaScript/Array _de_array.html",
+		"/C/Users/lucas/Desktop/Curso JavaScript/variaveis.html"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 55.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 290.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,495 @@
+
+html{
+	scroll-behavior: smooth;
+}
+
+/* ========================= layout ======================== */
+html, body, #capa {
+	height: 100%;
+	overflow: auto;
+}
+
+body {
+	background: url('imagens/backgroundteste.jpg') no-repeat;
+	background-attachment: fixed;
+	background-size: 100%;
+	font-family: Helvetica,Arial,sans-serif;
+	overflow-x: hidden;
+	position: relative;
+}
+
+
+
+/* -- Barra de navegação -- */
+
+.img-logo {
+	height: 60px;
+	width: 160px;
+	display: block;
+	background: url('imagens/abilio.jpg') no-repeat;
+	background-size: 96%;
+	color: transparent;
+}
+
+.logo2 {
+	height: 60px;
+	width: 160px;
+	display: block;
+	background: url('imagens/logo2.png') no-repeat;
+	background-size: 75%;
+	color: transparent;
+}
+
+nav{
+	background: #232323; 
+}
+
+.img_nav a{
+	font-size: 18px;
+}
+
+.div_nav{
+	margin: 0 12%;
+}
+
+.divisor{
+	width: 2px;
+	height: 22px;
+ 	background-color: green;
+	margin-top: 10px;
+	margin-left: 5px;
+	margin-right: 10px;
+}
+        
+#bat_studio{
+	height: 12px; 
+	margin-top: 18px;
+	margin-left: 5px; 
+	margin-right: 5px;
+}
+
+.navbar-nav>li>a, footer .nav a {
+	color: white;
+}
+
+.navbar-nav>li>a:hover, footer .nav a:hover {
+	color: #0FF71E;
+	transition: 0.4s;
+}
+
+/* -- Imagem de capa -- */
+#capa {
+	display: table;
+	width: 100%;
+}
+
+#texto-capa {
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#divscroll{
+	display: table-cell;
+	text-align: center;
+	vertical-align: bottom;
+}
+
+#scrollp{
+	margin-bottom: 65px;
+}
+
+.textoPiscando {
+	text-align: center;
+	animation: piscaPisca 7s infinite;
+	color: #15A317;
+	font-weight: 600;
+	text-shadow: 3px 4px black;
+	letter-spacing: -0.05em;
+	margin-bottom: 30px;
+
+}
+
+@keyframes piscaPisca {
+	0% { color: #15A317; }
+	10% { color: #15A317; }
+	15% { color: black; }
+	20% { color: black; }
+	25% { color: yellow; }
+	35% { color: yellow; }
+	40% { color: black; }
+	45% { color: black; }
+	50% { color: blue; }
+	60% { color: blue; }
+	65% { color: black; }
+	70% { color: black; }
+	75% { color: red; }
+	85% { color: red; }
+	90% { color: black; }
+	95% { color: black; }
+	100% { color: #15A317; }
+}
+   
+
+/* -- Botoes -- */
+.btn-custom {
+	color: white;
+	border-radius: 500px;
+	-webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+}
+
+.btn-roxo {
+	background: #7c25f8;
+}
+.btn-roxo:hover {
+	background-color: #6207e3;
+	color: white;
+}
+
+.btn-branco {
+	border: 2px solid white;
+}
+.btn-branco:hover {
+	background-color: white;
+	color: black;
+}
+/********************FIM BOTÕES********************/
+
+
+/********************INSTAGRAM********************/
+
+#insta_logo{
+	position: fixed;
+	left: -24px;
+	top: 300px;
+	background: url('imagens/instagram.png');
+	height: 60px;
+	width: 60px;
+	display: block;
+	background-size: 100%;
+	color: transparent;
+	transition: 0.6s;
+}
+
+#insta_logo:hover {
+	left: 0; /* On mouse-over, make the elements appear as they should */
+  }
+
+#offcanvasExample{
+	background-color: rgba(255, 255, 255, 0);
+}
+
+.eixo_x{
+	overflow: hidden;
+}
+
+.btn-close{
+	background-color: #fff;
+}
+
+
+/********************FIM INSTAGRAM********************/
+
+
+/********************SERVIÇOS********************/
+#servicos {
+	background: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#conteudo{
+	margin-left: 15px;
+	margin-right: 15px;
+	position: relative;
+}
+
+.imagem_servicos{
+	padding: 10px 10px 10px 0px;
+}
+
+/********************FIM SERVIÇOS********************/
+
+/********************CARROSSEL********************/
+		
+
+	#div_album{
+		margin-top: 20px;
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+
+	#sec_album {
+		background: transparent;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	.carousel-inner{
+		border-radius: 15px;
+	}
+
+/********************FIM CARROSSEL********************/
+/********************FAQ DROPDOWN********************/
+
+
+.accordion-item{
+	padding-left: 5px;
+}
+
+.accordion-button{
+	font-size: 20px;
+	color: #595959;
+}
+
+.accordion button:hover{
+	color: #0FF71E;
+	transition: 0.3s;
+}
+
+.accordion-button:not(.collapsed) {
+	color: #15a317;
+    background-color: white;
+}
+
+.accordion-button:link, .accordion-button:visited, .accordion-button:hover, .accordion-button, .accordion-button:active  {
+		 border-color: none !important;
+	  box-shadow: none !important;
+  
+		
+  }
+
+/********************FIM FAQ DROPDOWN********************/
+
+/*************************MAPA**************************/
+
+.mapa_responsivo{
+	overflow: hidden;
+	padding-bottom: 30.25%;
+	position: relative;
+	height: 0;
+	clear:both;
+}
+
+.mapa_responsivo iframe{
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	max-width: 800px;
+	max-height: 350px;
+}
+
+
+
+#loc{
+	margin-top: 40px;
+	margin-bottom: 0px;
+	color: white;
+	padding: 10px;
+	background-color: #3cbd2f;
+	float: left;
+	text-transform: uppercase;
+	font-size: 25px;
+	font-weight: lighter;
+	font-family: 'sans-serif', arial;
+}
+
+
+/**********************FIM MAPA**********************/
+
+/*********** RODAPÉ **************/
+footer {
+	clear: both;
+	background: #232323;
+	padding: 30px 0px 20px 0px;
+	position: relative;
+
+}
+
+.item-rede-social{
+	float: right;
+	margin: 0px -6px;
+	padding: 8px;
+
+}
+
+.item-rede-social:hover {
+	background-color: #47ce3b;
+	border-radius: 15px;
+}
+
+/*********** FIM RODAPÉ **************/
+
+/************************ Tipografia ***********************/
+
+.icon_rodape{
+	font-size: 25px;
+	color: #0FF71E;
+}
+
+.rodape_p{
+	color: white;
+	font-size: 15px;
+	margin: 5px 5px 5px 5px;
+	display: inline-block;
+}
+
+.span_rodape{
+	color: white;
+	position: relative;
+	bottom: 5px;
+}
+
+h2{
+	font-size: 50px;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+}
+
+h3{
+	font-size: 35px;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+}
+
+
+#servicos h3 {
+	color: #3cbd2f;
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	text-shadow: 2px 1px black;
+	letter-spacing: -0.05em;
+}
+
+
+
+/* Media queries */
+/* xs < 768 */
+
+@media screen and (max-width: 767px) {
+
+	#texto_capa{
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+	h1 {
+	    font-size: 50px;
+		margin-left: 30px;
+		margin-right: 30px;
+  	}
+  	.btn-custom {
+    	margin: 10px 15px;
+		font-size: 16px;
+	}
+	#loc{
+		font-size: 17px;
+	}
+
+	.item-rede-social{
+		margin: 0px -6px;
+	}
+	.logo2{
+		margin-left: 5%;
+	}
+	
+	#insta_logo{
+		width: 60px;
+		height: 60px;
+	}
+
+	#logo2div{
+		display: none;
+	}
+}
+
+/* sm */
+@media screen and (min-width: 768px) {
+    h1 {
+	    font-size: 70px; 
+  	}
+}
+
+
+
+@media (max-width: 992px) {
+	body{
+		background: url('imagens/teste10.jpg') no-repeat;
+		background-size: 100%;
+	}
+	
+	.img_nav{
+		display: none;
+	}
+
+	.mapa_responsivo{
+		overflow: hidden;
+		padding-bottom: 50.25%;
+		position: relative;
+		height: 0;
+		clear:both;
+	}
+
+	#rodape_map{
+		display:none;
+	}
+}
+
+/* md */
+@media screen and (min-width: 992px) {
+    h1 {
+	    font-size: 80px; 
+  	}
+	
+	.div_nav{
+		margin-top: -7px;
+		margin-bottom: -7px;
+	}
+
+	#div_map{
+		display: none;
+	}
+
+	#logo2div{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 1199px) {
+    .mapa_responsivo{
+		margin-bottom: 20px;
+	}
+
+	.item-rede-social:hover {
+		background: none;
+		border-radius: none;
+	}
+
+}
+
+
+
+/* lg */
+@media screen and (min-width: 1200px) {
+    h1 {
+	    font-size: 100px; 
+  	}
+
+	#cont_rod{
+		margin-left: -25%;	
+	}
+
+	.item-rede-social{
+		float: right;
+		margin: 0px 5px;
+		padding: 8px;
+	}
+	  
+}
+
+
+/* Fim Media queries */
